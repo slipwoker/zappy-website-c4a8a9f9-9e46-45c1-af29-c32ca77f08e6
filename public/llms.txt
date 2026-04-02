@@ -1,6 +1,4 @@
-# מועצת הנוער העירונית אשקלון — Generative Engine Optimization Map
-
-> The Ashkelon Municipal Youth Council is a civic youth organization representing the young residents of Ashkelon. The website aims to serve as an informational and community hub, featuring news and updates, upcoming events, a youth rights guide, information about the council and its secretariat, a photo gallery, and a contact page. The organization is tied to the city of Ashkelon and serves as a platform for youth empowerment and civic engagement.
+# Business — Generative Engine Optimization Map
 
 ---
 
@@ -48,25 +46,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About מועצת הנוער העירונית אשקלון
-The Ashkelon Municipal Youth Council is a civic youth organization representing the young residents of Ashkelon. The website aims to serve as an informational and community hub, featuring news and updates, upcoming events, a youth rights guide, information about the council and its secretariat, a photo gallery, and a contact page. The organization is tied to the city of Ashkelon and serves as a platform for youth empowerment and civic engagement.
-
-## Services/Products
-- דף הבית
-- חדשות ועדכונים
-- אירועים קרובים
-- מדריך הזכויות לנוער
-- הכירו את המועצה
-- מזכירות המועצה
-- גלריית תמונות
-- צור קשר
-
-## Target Audience
-נוער עירוני, תושבי אשקלון, הורים, גורמים עירוניים
-
-## Industry
-ארגון נוער עירוני / מגזר ציבורי
-
+## About Business
 ---
 
 # Additional Resources
