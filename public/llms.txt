@@ -1,55 +1,75 @@
-# Business — Generative Engine Optimization Map
+# מועצת הנוער העירונית אשקלון — Generative Engine Optimization Map
+
+> The Ashkelon Municipal Youth Council is a civic youth organization representing the young residents of Ashkelon. The website aims to serve as an informational and community hub, featuring news and updates, upcoming events, a youth rights guide, information about the council and its secretariat, a photo gallery, and a contact page. The organization is tied to the city of Ashkelon and serves as a platform for youth empowerment and civic engagement.
 
 ---
 
 ## Pages
 
 ### דף הבית
-https://example.com
+https://moetzethanouarhaironit-ashkelo.zappy5.app
 מועצת הנוער העירונית אשקלון היא הבית של צעירי העיר! גלו אירועים, זכויות נוער, חדשות ועדכונים שוטפים — כי הנוער של אשקלון מוביל שינוי אמיתי.
 
 ### חדשות ועדכונים
-https://example.com/news
+https://moetzethanouarhaironit-ashkelo.zappy5.app/news
 רוצים להישאר מעודכנים? חדשות ועדכונים טריים ישירות ממועצת הנוער העירונית אשקלון — פרויקטים חדשים, הישגים ועוד. היכנסו ואל תפספסו דבר!
 
 ### אירועים קרובים
-https://example.com/events
+https://moetzethanouarhaironit-ashkelo.zappy5.app/events
 אירועי נוער אשקלון 2025 כאן! מופעים, כנסים, פעילויות קהילתיות ועוד — כל האירועים הקרובים במקום אחד. בדקו את הלוח ובואו להיות חלק מהקהילה.
 
 ### מדריך זכויות נוער
-https://example.com/rights-guide
+https://moetzethanouarhaironit-ashkelo.zappy5.app/rights-guide
 המדריך המלא לזכויות נוער באשקלון — כל מה שצעיר צריך לדעת על זכויותיו החינוכיות, האזרחיות והחברתיות. מידע ברור, נגיש ומעצים לכל בני הנוער.
 
 ### הכירו את המועצה
-https://example.com/council
+https://moetzethanouarhaironit-ashkelo.zappy5.app/council
 הכירו את הפנים, הערכים והחזון של מועצת הנוער העירונית אשקלון — הצוות המסור, מזכירות המועצה וכל מה שמניע את הנוער העירוני קדימה. הסיפור שלנו מתחיל כאן.
 
 ### גלריה וצור קשר
-https://example.com/gallery-contact
+https://moetzethanouarhaironit-ashkelo.zappy5.app/gallery-contact
 גלריית התמונות של מועצת הנוער העירונית אשקלון מספרת את הסיפור שלנו בצבעים. רוצים ליצור קשר? אנחנו כאן בשבילכם — פנו אלינו ונשמח לענות על כל שאלה.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://moetzethanouarhaironit-ashkelo.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://moetzethanouarhaironit-ashkelo.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://moetzethanouarhaironit-ashkelo.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About מועצת הנוער העירונית אשקלון
+The Ashkelon Municipal Youth Council is a civic youth organization representing the young residents of Ashkelon. The website aims to serve as an informational and community hub, featuring news and updates, upcoming events, a youth rights guide, information about the council and its secretariat, a photo gallery, and a contact page. The organization is tied to the city of Ashkelon and serves as a platform for youth empowerment and civic engagement.
+
+## Services/Products
+- דף הבית
+- חדשות ועדכונים
+- אירועים קרובים
+- מדריך הזכויות לנוער
+- הכירו את המועצה
+- מזכירות המועצה
+- גלריית תמונות
+- צור קשר
+
+## Target Audience
+נוער עירוני, תושבי אשקלון, הורים, גורמים עירוניים
+
+## Industry
+ארגון נוער עירוני / מגזר ציבורי
+
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+- **Sitemap**: https://moetzethanouarhaironit-ashkelo.zappy5.app/sitemap.xml
+- **Robots.txt**: https://moetzethanouarhaironit-ashkelo.zappy5.app/robots.txt
