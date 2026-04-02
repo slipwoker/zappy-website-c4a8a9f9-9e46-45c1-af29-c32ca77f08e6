@@ -1,0 +1,55 @@
+# Business — Generative Engine Optimization Map
+
+---
+
+## Pages
+
+### דף הבית
+https://example.com
+מועצת הנוער העירונית אשקלון היא הבית של צעירי העיר! גלו אירועים, זכויות נוער, חדשות ועדכונים שוטפים — כי הנוער של אשקלון מוביל שינוי אמיתי.
+
+### חדשות ועדכונים
+https://example.com/news
+רוצים להישאר מעודכנים? חדשות ועדכונים טריים ישירות ממועצת הנוער העירונית אשקלון — פרויקטים חדשים, הישגים ועוד. היכנסו ואל תפספסו דבר!
+
+### אירועים קרובים
+https://example.com/events
+אירועי נוער אשקלון 2025 כאן! מופעים, כנסים, פעילויות קהילתיות ועוד — כל האירועים הקרובים במקום אחד. בדקו את הלוח ובואו להיות חלק מהקהילה.
+
+### מדריך זכויות נוער
+https://example.com/rights-guide
+המדריך המלא לזכויות נוער באשקלון — כל מה שצעיר צריך לדעת על זכויותיו החינוכיות, האזרחיות והחברתיות. מידע ברור, נגיש ומעצים לכל בני הנוער.
+
+### הכירו את המועצה
+https://example.com/council
+הכירו את הפנים, הערכים והחזון של מועצת הנוער העירונית אשקלון — הצוות המסור, מזכירות המועצה וכל מה שמניע את הנוער העירוני קדימה. הסיפור שלנו מתחיל כאן.
+
+### גלריה וצור קשר
+https://example.com/gallery-contact
+גלריית התמונות של מועצת הנוער העירונית אשקלון מספרת את הסיפור שלנו בצבעים. רוצים ליצור קשר? אנחנו כאן בשבילכם — פנו אלינו ונשמח לענות על כל שאלה.
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Business
+---
+
+# Additional Resources
+
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
