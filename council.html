@@ -238,7 +238,7 @@
     <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon-512x512.png">
     <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
     <!-- Cookie Consent -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css">
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
@@ -333,7 +333,7 @@
     </svg>
   </button>
 
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
+  <button class="phone-header-btn" data-phone="+972587157050" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
@@ -342,7 +342,7 @@
   <div class="nav-container">
     <div class="nav-right-group"><div class="nav-brand">
       <a href="/" class="logo-link">
-        <img src="/assets/logo.webp" alt="מועצת הנוער העירונית אשקלון" class="logo" />
+        <img src="/assets/logo.webp" alt="מועצת הנוער העירונית אשקלון" class="logo">
       </a>
     </div><ul class="nav-menu" id="navMenu"><li><a href="/news">חדשות ועדכונים</a></li><li><a href="/events">אירועים קרובים</a></li><li><a href="/rights-guide">מדריך זכויות נוער</a></li><li><a href="/council">הכירו את המועצה</a></li></ul></div>
 
@@ -736,7 +736,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '+972587157050';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -980,7 +980,7 @@
           <div class="council-team-divider"></div>
           <div class="council-team-contact">
             <i class="fas fa-envelope" aria-hidden="true"></i>
-            <span>[business_email]</span>
+            <span>teenashkelon123@gmail.com</span>
           </div>
         </div>
       </article>
@@ -997,7 +997,7 @@
           <div class="council-team-divider"></div>
           <div class="council-team-contact">
             <i class="fas fa-envelope" aria-hidden="true"></i>
-            <span>[business_email]</span>
+            <span>teenashkelon123@gmail.com</span>
           </div>
         </div>
       </article>
@@ -1014,7 +1014,7 @@
           <div class="council-team-divider"></div>
           <div class="council-team-contact">
             <i class="fas fa-envelope" aria-hidden="true"></i>
-            <span>[business_email]</span>
+            <span>teenashkelon123@gmail.com</span>
           </div>
         </div>
       </article>
@@ -1031,7 +1031,7 @@
           <div class="council-team-divider"></div>
           <div class="council-team-contact">
             <i class="fas fa-envelope" aria-hidden="true"></i>
-            <span>[business_email]</span>
+            <span>teenashkelon123@gmail.com</span>
           </div>
         </div>
       </article>
@@ -1155,13 +1155,13 @@
         <!-- Column 1: Brand / Company Info -->
         <div class="footer-col footer-brand">
           <a href="/" class="footer-logo-link">
-            <img src="/assets/logo.webp" alt="מועצת הנוער העירונית אשקלון" class="logo" />
+            <img src="/assets/logo.webp" alt="מועצת הנוער העירונית אשקלון" class="logo">
           </a>
           <p class="footer-tagline">מועצת הנוער העירונית אשקלון — קול הנוער בלב העיר. אנחנו כאן כדי לייצג, לקדם ולהעצים את הדור הצעיר של אשקלון.</p>
           <div class="footer-social">
-            <a href="[facebook_handle]" aria-label="Facebook" class="social-link"><i class="fab fa-facebook-f"></i></a>
-            <a href="[instagram_handle]" aria-label="Instagram" class="social-link"><i class="fab fa-instagram"></i></a>
-            <a href="[whatsapp_handle]" aria-label="WhatsApp" class="social-link"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" aria-label="Facebook" class="social-link" style="display:none !important;"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram" class="social-link" style="display:none !important;"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="WhatsApp" class="social-link" style="display:none !important;"><i class="fab fa-whatsapp"></i></a>
           </div>
         </div>
 
@@ -1183,14 +1183,14 @@
           <ul class="footer-contact">
             <li>
               <span class="contact-icon"><i class="fas fa-envelope"></i></span>
-              <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
+              <span class="contact-text"><a href="mailto:teenashkelon123@gmail.com">teenashkelon123@gmail.com</a></span>
             </li>
             <li>
               <span class="contact-icon"><i class="fas fa-phone"></i></span>
-              <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+              <span class="contact-text"><a href="tel:+972587157050">+972587157050</a></span>
             </li>
-            <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
-              <span class="contact-text">[business_address]</span></a></li>
+            <li><a href="/" style="display:flex;align-items:flex-start;gap:inherit"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+              <span class="contact-text">חגי 24, אשקלון, ישראל</span></a></li>
           </ul>
         </div>
 
