@@ -1318,8 +1318,8 @@ window.onload = function() {
                 '[pinterest_handle]',
                 // Old format (full URL placeholders)
                 '[social_facebook]',
-                '[social instagram]',
-                '[social_instagram]',
+                'https://instagram.com/teen.ashkelon',
+                'https://instagram.com/teen.ashkelon',
                 '[social whatsapp]',
                 '[social_whatsapp]',
                 '[social_twitter]',
