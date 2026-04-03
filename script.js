@@ -1563,12 +1563,12 @@ window.onload = function() {
     window.__zappyPublishedZoomInit = true;
 
     function isHeroBgWrapper(wrapper) {
+      var img = wrapper.querySelector('img');
+      if (img && (img.getAttribute('data-hero-bg') === 'true' || img.getAttribute('data-hero-background') === 'true')) return true;
       var pos = (wrapper.style.position || '').replace(/\s*!important\s*/g, '').trim();
       var w = (wrapper.style.width || '').replace(/\s*!important\s*/g, '').trim();
       var h = (wrapper.style.height || '').replace(/\s*!important\s*/g, '').trim();
       if (pos === 'absolute' && w === '100%' && h === '100%') return true;
-      var img = wrapper.querySelector('img');
-      if (img && img.getAttribute('data-hero-bg') === 'true') return true;
       return false;
     }
 
@@ -1610,6 +1610,16 @@ window.onload = function() {
         img.style.removeProperty('left');
         img.style.removeProperty('top');
         img.style.setProperty('margin', '0', 'important');
+        var mSrc = img.getAttribute('data-zappy-mobile-src');
+        var mPos = img.getAttribute('data-zappy-mobile-object-position');
+        var mZoom = parseFloat(img.getAttribute('data-zappy-mobile-zoom'));
+        if (mSrc) img.src = mSrc;
+        if (mPos) img.style.setProperty('object-position', mPos, 'important');
+        if (mZoom > 1) {
+          img.style.setProperty('transform', 'scale(' + mZoom + ')', 'important');
+          img.style.setProperty('transform-origin', mPos || '50% 50%', 'important');
+          wrapper.style.setProperty('overflow', 'hidden', 'important');
+        }
         return;
       }
 
@@ -1710,6 +1720,41 @@ window.onload = function() {
       wrapper.style.setProperty('position', 'relative', 'important');
     }
 
+    function fixHeroBgWrapperStyles(wrapper) {
+      if (!isHeroBgWrapper(wrapper)) return;
+      wrapper.style.setProperty('position', 'absolute', 'important');
+      wrapper.style.setProperty('top', '0', 'important');
+      wrapper.style.setProperty('left', '0', 'important');
+      wrapper.style.setProperty('width', '100%', 'important');
+      wrapper.style.setProperty('height', '100%', 'important');
+      wrapper.style.setProperty('max-width', 'none', 'important');
+      wrapper.style.setProperty('overflow', 'hidden', 'important');
+      wrapper.setAttribute('data-zappy-zoom-wrapper-width-mode', 'full');
+      var img = wrapper.querySelector('img');
+      if (img) {
+        img.style.setProperty('width', '100%', 'important');
+        img.style.setProperty('height', '100%', 'important');
+        img.style.setProperty('object-fit', 'cover', 'important');
+        img.style.setProperty('position', 'relative', 'important');
+        img.style.setProperty('top', '0', 'important');
+        img.style.setProperty('left', '0', 'important');
+        img.style.setProperty('max-width', 'none', 'important');
+        img.style.setProperty('max-height', 'none', 'important');
+        img.style.setProperty('display', 'block', 'important');
+        if (window.innerWidth <= 768) {
+          var mSrc = img.getAttribute('data-zappy-mobile-src');
+          var mPos = img.getAttribute('data-zappy-mobile-object-position');
+          var mZoom = parseFloat(img.getAttribute('data-zappy-mobile-zoom'));
+          if (mSrc) img.src = mSrc;
+          if (mPos) img.style.setProperty('object-position', mPos, 'important');
+          if (mZoom > 1) {
+            img.style.setProperty('transform', 'scale(' + mZoom + ')', 'important');
+            img.style.setProperty('transform-origin', mPos || '50% 50%', 'important');
+          }
+        }
+      }
+    }
+
     function initZoomWrappers() {
       var wrappers = document.querySelectorAll('[data-zappy-zoom-wrapper="true"]');
       for (var i = 0; i < wrappers.length; i++) {
@@ -1717,6 +1762,7 @@ window.onload = function() {
           var img = wrapper.querySelector('img');
           if (!img) return;
           if (wrapper.closest && wrapper.closest('.zappy-carousel-js-init, .zappy-carousel-active')) return;
+          fixHeroBgWrapperStyles(wrapper);
           if (window.innerWidth > 768) restoreWrapperDimensions(wrapper);
           if (img.complete && img.naturalWidth > 0) {
             setTimeout(function() { applyZoom(wrapper, img); }, 0);
