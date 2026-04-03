@@ -1417,11 +1417,13 @@
     <script>
     (function(){
       var _applied=false;
+      function _isHeroBg(w){var p=(w.style.position||'').replace(/\s*!important\s*/g,'').trim();var ww=(w.style.width||'').replace(/\s*!important\s*/g,'').trim();var hh=(w.style.height||'').replace(/\s*!important\s*/g,'').trim();if(p==='absolute'&&ww==='100%'&&hh==='100%')return true;var img=w.querySelector('img');return img&&img.getAttribute('data-hero-bg')==='true';}
       function fixDesktopWrappers(){
         if(window.innerWidth<=768)return;
         document.querySelectorAll('[data-zappy-zoom-wrapper="true"]').forEach(function(w){
           var mode=w.getAttribute('data-zappy-zoom-wrapper-width-mode');
           if(mode==='full'||mode==='grid-responsive')return;
+          if(_isHeroBg(w))return;
           var storedW=parseFloat(w.getAttribute('data-zappy-zoom-wrapper-width'));
           if(!storedW||!isFinite(storedW))return;
           var parent=w.parentElement;
